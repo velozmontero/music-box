@@ -16,4 +16,213 @@ body {
     margin: 0.14%;
     height: 100%;
     float: left;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+#c{
+
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#30f3ff', endColorstr = '#ffe3fd');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#30f3ff', endColorstr = '#ffe3fd')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #30f3ff, #ffe3fd);
+background-image: -ms-linear-gradient(top, #30f3ff, #ffe3fd);
+background-image: -o-linear-gradient(top, #30f3ff, #ffe3fd);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#30f3ff), to(#ffe3fd));
+background-image: -webkit-linear-gradient(top, #30f3ff, #ffe3fd);
+background-image: linear-gradient(top, #30f3ff, #ffe3fd);
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+opacity: 0.99;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 99);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 99);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+  
+}
+
+#d{
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffbf7f', endColorstr = '#ffffff');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffbf7f', endColorstr = '#ffffff')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #ffbf7f, #ffffff);
+background-image: -ms-linear-gradient(top, #ffbf7f, #ffffff);
+background-image: -o-linear-gradient(top, #ffbf7f, #ffffff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffbf7f), to(#ffffff));
+background-image: -webkit-linear-gradient(top, #ffbf7f, #ffffff);
+background-image: linear-gradient(top, #ffbf7f, #ffffff);
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+opacity: 0.99;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 99);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 99);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+}
+
+#e{
+    -moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff82b4', endColorstr = '#ffffff');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff82b4', endColorstr = '#ffffff')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #ff82b4, #ffffff);
+background-image: -ms-linear-gradient(top, #ff82b4, #ffffff);
+background-image: -o-linear-gradient(top, #ff82b4, #ffffff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ff82b4), to(#ffffff));
+background-image: -webkit-linear-gradient(top, #ff82b4, #ffffff);
+background-image: linear-gradient(top, #ff82b4, #ffffff);
+/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+opacity: 0.99;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 99);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 99);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+}
+
+#f {
+    -moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#87ffa1', endColorstr = '#ffffff');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#87ffa1', endColorstr = '#ffffff')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #87ffa1, #ffffff);
+background-image: -ms-linear-gradient(top, #87ffa1, #ffffff);
+background-image: -o-linear-gradient(top, #87ffa1, #ffffff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#87ffa1), to(#ffffff));
+background-image: -webkit-linear-gradient(top, #87ffa1, #ffffff);
+background-image: linear-gradient(top, #87ffa1, #ffffff);
+/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+opacity: 0.99;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 99);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 99);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+}
+
+#g {
+    -moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#efff69', endColorstr = '#ffffff');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#efff69', endColorstr = '#ffffff')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #efff69, #ffffff);
+background-image: -ms-linear-gradient(top, #efff69, #ffffff);
+background-image: -o-linear-gradient(top, #efff69, #ffffff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#efff69), to(#ffffff));
+background-image: -webkit-linear-gradient(top, #efff69, #ffffff);
+background-image: linear-gradient(top, #efff69, #ffffff);
+/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+opacity: 0.99;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 99);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 99);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+}
+
+#a{
+    -moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#aa8cff', endColorstr = '#ffffff');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#aa8cff', endColorstr = '#ffffff')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #aa8cff, #ffffff);
+background-image: -ms-linear-gradient(top, #aa8cff, #ffffff);
+background-image: -o-linear-gradient(top, #aa8cff, #ffffff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#aa8cff), to(#ffffff));
+background-image: -webkit-linear-gradient(top, #aa8cff, #ffffff);
+background-image: linear-gradient(top, #aa8cff, #ffffff);
+/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+opacity: 0.99;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 99);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 99);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+}
+
+#b{
+    -moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff5236', endColorstr = '#ffffff');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff5236', endColorstr = '#ffffff')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #ff5236, #ffffff);
+background-image: -ms-linear-gradient(top, #ff5236, #ffffff);
+background-image: -o-linear-gradient(top, #ff5236, #ffffff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ff5236), to(#ffffff));
+background-image: -webkit-linear-gradient(top, #ff5236, #ffffff);
+background-image: linear-gradient(top, #ff5236, #ffffff);
+/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+opacity: 0.99;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 99);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 99);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
 }
