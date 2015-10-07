@@ -13,6 +13,45 @@ $(document).ready(function(){
         cnote.play();
     }); 
    
+    $(document).keydown(function(e){
+      
+        if(e.which == 65) {
+            cnote.currentTime=0;
+            cnote.play();
+        }  
+        
+        if(e.which == 83) {
+            dnote.currentTime=0;
+            dnote.play();
+        } 
+        
+        if(e.which == 68) {
+            enote.currentTime=0;
+            enote.play();
+        } 
+        
+        if(e.which == 70) {
+            fnote.currentTime=0;
+            fnote.play();
+        } 
+        
+        if(e.which == 71) {
+            gnote.currentTime=0;
+            gnote.play();
+        }
+        
+        if(e.which == 72) {
+            anote.currentTime=0;
+            anote.play();
+        }
+        
+        if(e.which == 74) {
+            bnote.currentTime=0;
+            bnote.play();
+        }
+        
+    });
+   
     $('#d').on('click', function(){
         dnote.currentTime=0;
         dnote.play();
